@@ -26,9 +26,9 @@ function About() {
               <img className="mx-auto rounded-circle" src={require('../assets/img/my_img.png')} alt="my_img" />
                   <h4>Mohit</h4>
                     <p className="text-muted">Full-Stack Web Developer</p>
-                      <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fa fa-twitter"></i></a>
-                      <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fa fa-facebook-f"></i></a>
-                      <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fa fa-linkedin"></i></a>
+                      <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-twitter"></i></a>
+                      <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
+                      <a className="btn btn-dark btn-social mx-2" href="#!"><i className="fab fa-linkedin"></i></a>
             </div>
          </div>
          <div className="col-lg-9" data-aos="fade-left">
