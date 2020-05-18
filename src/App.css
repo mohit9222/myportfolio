@@ -11,7 +11,143 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+
+  header.masthead {
+    text-align: center;
+    color: #fff;
+    background-image: url(../src/assets/img/head-6.jpg) !important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .myImage {
+    background-image: url(../src/assets/img/my_img.png) !important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .dev {
+    font-style: initial !important;
+  }
 }
+/*
+#abt {animation-timing-function: ease;}
+
+.a {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards; 
+}
+
+@keyframes example {
+  from {left: 0px;}
+  to {left: 480px;}
+}
+*/
+.pad {
+  padding-top: 2rem !important;
+}
+
+#skill {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service-heading {
+  color: white;
+}
+
+.ts {
+  color: white;
+}
+
+.modal {
+  width: 600px;
+  max-width: 100%;
+  height: 400px;
+  max-height: 100%;
+}
+
+.jumbotron {
+  background-color: black !important;
+}
+
+.head {
+  color: black; 
+  font-family: 'Raleway',sans-serif; 
+  font-size: 20px;
+  font-weight: 800; 
+  line-height: 36px;
+  text-align: center;
+}
+
+hr{
+  height: 1px;
+  background-color: white;
+  border: none;
+}
+
+.text_colo {
+  color: white;
+}
+
+header.masthead {
+  text-align: center;
+  color: #fff;
+  background-image: url(../src/assets/img/head-6.jpg) !important;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+.myImage {
+  background-image: url(../src/assets/img/my_img.png) !important;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+.highlight {
+  color: white;
+}
+
+.text-muted {
+  font-size: 17px !important;
+  color: #616161;
+}
+
+.vmw {
+  background-color: #212529 !important;
+  border-color: #212529 !important;
+}
+
+.information {
+  padding-top: 2rem;
+}
+
+.myImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+/*
+#mainNav {
+  background-color: black !important;
+}
+*/
+
 
 .App-header {
   background-color: #282c34;
