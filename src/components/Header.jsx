@@ -9,7 +9,7 @@ function Header() {
       <div className="container">
         <div className="intro-text">
           <div className="intro-heading">Hello, I'm <span className="highlight text-uppercase">Mohit</span>!</div>
-          <div className="intro-lead-in text-uppercase dev">I'm a full-stack web developer.</div>
+          <div className="intro-lead-in text-uppercase dev">I'm a full-stack developer.</div>
           <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger vmw" href="#portfolio">View my work</a>
             <div style={{paddingTop: '1rem'}}>
             <ul className="list-inline social-buttons">

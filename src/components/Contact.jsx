@@ -1,10 +1,22 @@
 import React from 'react';
 import '../App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import emailjs from 'emailjs-com'
 
-class Contact extends React.Component {
+export default function Contact() {
 
-  render() {
+  function sendEmail(e) {
+    e.preventDefault();
+
+      emailjs.sendForm('service_83zwo5f', 'template_g9epebl', e.target, 'user_SdsTTHJe2zqcSM66Z3EOd')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  }
+
     return (
     <section className="page-section" id="contact">
       <div className="container">
@@ -16,7 +28,7 @@ class Contact extends React.Component {
         </div>
         <div className="row">
           <div className="col-lg-12">
-            <form  id="contactForm" name="sentMessage" noValidate="novalidate">
+            <form onSubmit={sendEmail} id="contactForm" name="sentMessage" noValidate="novalidate">
               <div className="row">
                 <div className="col-md-6">
                   <div className="form-group">
@@ -24,11 +36,11 @@ class Contact extends React.Component {
                     <p className="help-block text-danger"></p>
                   </div>
                   <div className="form-group">
-                    <input className="form-control" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address."/>
+                    <input className="form-control" type="email" name="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address."/>
                     <p className="help-block text-danger"></p>
                   </div>
                   <div className="form-group">
-                    <input className="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number."/>
+                    <input className="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number."/>
                     <p className="help-block text-danger"></p>
                 </div>
                 </div>
@@ -52,6 +64,5 @@ class Contact extends React.Component {
     </section>
     )
   }
-}
 
-export default Contact
+//export default Contact

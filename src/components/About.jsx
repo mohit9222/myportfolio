@@ -34,7 +34,7 @@ function About() {
          <div className="col-lg-9" data-aos="fade-left">
          <div className="jumbotron">
           <h1 className="display-4 text_colo">Hello, my name is <a style={{color: "yellow"}}>Mohit</a></h1>
-         <p className="lead text_colo" align="justify">I am an experienced Software Developer with over 
+         <p className="lead text_colo" align="justify">I am an experienced Full-stack Developer with over 
          4 years of experience in the IT Domain, worked on multiple releases.<br /> <br />
          After completing my Master’s in Computer Science, I chose to continue my passion and zeal 
          for development and thereby started working with a leading MNC. I would define myself as a fervent
