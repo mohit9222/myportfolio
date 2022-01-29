@@ -38,16 +38,16 @@ class Navbar extends Component {
         <div className={`${classOne}`} id="navbarResponsive">
           <ul className="navbar-nav text-uppercase ml-auto"> 
           <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#about">About</a>
+              <a className="nav-link js-scroll-trigger colrs" href="#about">About</a>
             </li>  
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#skill">Skills</a>
+              <a className="nav-link js-scroll-trigger colrs" href="#skill">Skills</a>
             </li>                    
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a className="nav-link js-scroll-trigger colrs" href="#portfolio">Portfolio</a>
             </li>     
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a className="nav-link js-scroll-trigger colrs" href="#contact">Contact</a>
             </li>
           </ul>
         </div>

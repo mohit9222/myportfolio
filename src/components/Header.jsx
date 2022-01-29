@@ -20,12 +20,12 @@ function Header() {
               </li>
               <li className="list-inline-item">
                 <a href="https://github.com/mohit9222" title="GitHub" alt="github">
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="https://www.linkedin.com/in/mohit-r-583127174/" title="LinkedIn" alt="linkedin">
-                <i class="fab fa-linkedin-in"></i>
+                <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
             </ul> 
