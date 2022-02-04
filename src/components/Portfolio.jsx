@@ -8,6 +8,7 @@ import JR_APP from './JR_App';
 import Covid_Tracker from './Covid_Tracker';
 import TripleCourt from './TripleCourt';
 import VAG from './VAG';
+import ToDoList from './ToDoList';
 
 const style = {
     position: 'absolute',
@@ -44,6 +45,9 @@ export default function Portfolio() {
                 <div className="row" data-aos="fade-up">
                     <div className="col-lg-4 col-sm-6 mb-4">
                         <VAG />
+                    </div>
+                    <div className="col-lg-4 col-sm-6 mb-4">
+                        <ToDoList />
                     </div>
                 </div>
             </div>
