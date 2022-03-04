@@ -26,7 +26,7 @@ function Skill() {
             <i class="far fa-file-code fa-inverse"></i>
             </span>
             
-            <h4 className="service-heading">FrontEnd Technologies</h4>
+            <h4 className="service-heading">Front End Technologies</h4>
             <div data-aos="fade-right">
             <div className="row" style={{paddingTop: '2rem'}}>
                 <div className="col-md-4">
@@ -56,17 +56,17 @@ function Skill() {
             <span className="fa-stack fa-3x">
               <i className="fa fa-code fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 className="service-heading">BackEnd Technologies</h4>
+            <h4 className="service-heading">Other Tools/Technologies</h4>
             <div data-aos="fade-right">
             <div className="row" style={{paddingTop: '2rem'}}>
-                <div className="col-md-4">
-                    <i className="fab fa-python fa-3x fa-inverse"></i>
+                <div className="col-md-5">
+                <img src={require('../assets/img/rest.png')} alt="sql-server" style={{height: '3rem'}} />
+                </div>
+                <div className="col-md-3">
+                <img src={require('../assets/img/docker.png')} alt="sql-server" style={{height: '3rem'}} />
                 </div>
                 <div className="col-md-4">
-                    <i className="fab fa-php fa-3x fa-inverse"></i>
-                </div>
-                <div className="col-md-4">
-                    <i className="fab fa-java fa-3x fa-inverse"></i>
+                <img src={require('../assets/img/git.png')} alt="sql-server" style={{height: '3rem'}} />
                 </div>
             </div>
             </div>

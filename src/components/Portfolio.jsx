@@ -9,6 +9,7 @@ import Covid_Tracker from './Covid_Tracker';
 import TripleCourt from './TripleCourt';
 import VAG from './VAG';
 import ToDoList from './ToDoList';
+import FormValidation from './FormValidation';
 
 const style = {
     position: 'absolute',
@@ -48,6 +49,9 @@ export default function Portfolio() {
                     </div>
                     <div className="col-lg-4 col-sm-6 mb-4">
                         <ToDoList />
+                    </div>
+                    <div className="col-lg-4 col-sm-6 mb-4">
+                        <FormValidation />
                     </div>
                 </div>
             </div>

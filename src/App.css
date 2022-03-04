@@ -6,6 +6,26 @@
     height: 40vmin;
     pointer-events: none;
 }
+
+.intro-text {
+    padding-top: 100px !important;
+    padding-bottom: 10% !important;
+}
+
+.intro-heading {
+    margin-bottom: 5px !important;
+}
+
+.fde {
+    color: #ffc60a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 50px !important;
+}
+
+.rd {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;
@@ -14,7 +34,6 @@
     header.masthead {
         text-align: center;
         color: #fff;
-        background-image: url("../src/assets/img/head-6.jpg") !important;
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center;
@@ -22,34 +41,56 @@
     }
 
     .myImage {
-        background-image: url("../src/assets/img/my_img.png") !important;
+        /* background-image: url("../src/assets/img/bg22.jpg") !important; */
         background-repeat: no-repeat;
         background-attachment: scroll;
-        background-position: center center;
         background-size: cover;
     }
-
-    .dev {
-        font-style: initial !important;
-    }
-}
-/*
-#abt {animation-timing-function: ease;}
-
-.a {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  animation-name: example;
-  animation-duration: 3s;  
-  animation-fill-mode: forwards; 
 }
 
-@keyframes example {
-  from {left: 0px;}
-  to {left: 480px;}
+.dev {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-style: initial !important;
+    font-weight: 800;
+    padding-top: 5%;
 }
-*/
+
+.of {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 3vw!important;
+    font-weight: 700!important;
+}
+
+.intro-lead-in {
+    margin-bottom: 10px !important;
+}
+
+#ide {
+    font-style: initial !important;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+
+#about,
+#portfolio {
+    background: linear-gradient(#bdc3c7, #2c3e50) !important;
+}
+.of:after,
+.of:before {
+    content: "\00a0\00a0\00a0\00a0\00a0";
+    text-decoration: line-through;
+    margin: auto 0.5em;
+}
+
+.hed_img {
+    width: 80%;
+    padding-top: 12vw;
+}
+
 .pad {
     padding-top: 2rem !important;
 }
@@ -76,7 +117,9 @@
 }
 
 .jumbotron {
-    background-color: black !important;
+    background: none !important;
+    padding: 1rem 2rem !important;
+    border: 1px solid #fff !important;
 }
 
 .head {
@@ -96,24 +139,12 @@ hr {
 
 .text_colo {
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header.masthead {
-    text-align: center;
-    color: #fff;
-    background-image: url("../src/assets/img/head-6.jpg") !important;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: cover;
-}
-
-.myImage {
-    background-image: url("../src/assets/img/my_img.png") !important;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
+#achievements {
+    background-color: black;
+    color: white;
 }
 
 .highlight {
@@ -126,6 +157,7 @@ header.masthead {
 }
 
 .vmw {
+    padding-top: 10%;
     background-color: #212529 !important;
     border-color: #212529 !important;
 }
@@ -140,12 +172,6 @@ header.masthead {
     border-radius: 50%;
 }
 
-/*
-#mainNav {
-  background-color: black !important;
-}
-*/
-
 .App-header {
     background-color: #282c34;
     min-height: 100vh;
@@ -158,7 +184,7 @@ header.masthead {
 }
 
 .App-link {
-    color: #61dafb;
+    color: #ffc60a;
 }
 
 .text-algn {
@@ -185,4 +211,77 @@ header.masthead {
     to {
         transform: rotate(360deg);
     }
+}
+
+#home, #skill, #achievements {
+    background: linear-gradient(#232526, #414345);
+}
+
+.service-heading {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.portfolio-caption {
+    max-width: 335px !important;
+}
+
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    }
+  .grid img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 100%;
+  }
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+.content {
+    margin: 0;
+    padding-top: 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    min-height: 14vh;
+    justify-content: center;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+}
+.content h2:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #ffc60a;
+}
+.content h2:nth-child(2) {
+    color: #ffc60a;
+    animation: animate 4s ease-in-out infinite;
+}
+
+btn-primary {
+    color: #fff;
+    background-color: #ffc60a !important;
+    border-color: #ffc60a !important;
+}
+@keyframes animate {
+    0%,
+    100% {
+        clip-path: polygon( 0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100% );
+    }
+
+    50% {
+        clip-path: polygon( 0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100% );
+    }
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }
